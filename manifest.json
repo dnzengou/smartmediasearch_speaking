@@ -1,0 +1,13 @@
+{
+    "name": "Smart Media Search",
+    "short_name": "smartmediasearch",
+    "display": "standalone",
+    "start_url": "/",
+    "theme_color": "#e5e5e5",
+    "background_color": "#fff",
+    "icons": [{
+        "src": "app/img/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }]
+}

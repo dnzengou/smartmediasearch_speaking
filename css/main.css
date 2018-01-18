@@ -1,0 +1,265 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #ffffff;
+    /*#192837*/
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+input {
+    background-color: #126077;
+    border: 1px solid #3F7F93;
+    color: #A6CAE6;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    line-height: 43px;
+    padding: 0 0.75em;
+    width: 400px;
+    -webkit-transition: all 0.35s ease-in;
+}
+
+textarea {
+    background-color: #070F24;
+    border: 1px solid #122435;
+    color: #606B88;
+    padding: 0.5em;
+    width: 100%;
+    -webkit-transition: all 0.35s ease-in;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    outline: 1px solid #48788B;
+}
+
+.btn {
+    background-color: #ffffff;
+    /*#1888A9*/
+    /*#126178*/
+    border: 1px solid #ffffff;
+    /*#549EAF*/
+    color: red;
+    /*#549EAF*/
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    line-height: 43px;
+    padding: 0 0.75em;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.35s ease-in;
+}
+
+.btn:hover {
+    background-color: #A6CAE6;
+    background-image: -webkit-linear-gradient(top, start-color, end-color);
+    background-image: -moz-linear-gradient(top, start-color, end-color);
+    background-image: linear-gradient(to bottom, start-color, end-color);
+    ;
+    /*#1888A9*/
+    color: #183035;
+}
+
+.debug {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+}
+
+.debug__content {
+    font-size: 14px;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.35s ease-in;
+}
+
+.debug__content.is-active {
+    display: block;
+    max-height: 500px;
+}
+
+.debug__btn {
+    width: 100%;
+}
+
+.spoken-response {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.35s ease-in;
+}
+
+.spoken-response.is-active {
+    max-height: 400px;
+}
+
+.spoken-response__text {
+    background-color: transparent;
+    /*#040E23*/
+    color: #ffffff;
+    /*#7584A2*/
+    padding: 1em;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tx-header {
+    position: relative;
+    padding: 30px 15px;
+    font-size: 20px;
+    color: #818791;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    background-color: #fff;
+}
+
+.tx-header h1 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.tx-header p {
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.media-object {
+    width: 128px;
+    height: 128px;
+    border-radius: 5px;
+}
+
+.media .thumbnail {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.media-list {
+    text-align: left;
+}
+
+@media (min-width: 450px) and (max-width: 767px) {
+    .media-list {
+        text-align: left;
+    }
+    .media .thumbnail {
+        float: left;
+        margin-right: 25px;
+    }
+}
+
+.media:first-child {
+    margin-top: 15px;
+}
+
+.btn-outline {
+    color: #818791;
+    background-color: transparent;
+    border-color: #818791;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active {
+    color: #fff;
+    background-color: #818791;
+    border-color: #818791;
+}
+
+a {
+    color: #818791;
+}
+
+a:hover,
+a:focus {
+    color: #e5e5e5;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+    border-color: #818791;
+}
+
+@media (min-width: 768px) and (max-width: 911px) {
+    #search {
+        padding-left: 0px;
+    }
+}
+
+.tx-image {
+    position: relative;
+    width: 128px;
+    height: 128px;
+    border-radius: 25px;
+}
+
+.heart {
+    font-size: 25px;
+    color: red;
+}

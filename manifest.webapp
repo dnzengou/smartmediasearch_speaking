@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "Smart Media Search",
+  "launch_path": "/index.html",
+  "description": "smart media search",
+  "developer": {
+    "name": "desireyavro",
+    "url": "https://desireyavro.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Smart Media Search",
+      "description": "smart media search"
+    }
+  }
+}
