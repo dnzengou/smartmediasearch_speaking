@@ -1,38 +1,20 @@
 var videos = {
-	"q49geg-IkiU": {
-        "summary": "When are you going to do is also very...you might...So, you're waiting...all these years...with",
-        "rating": 5,
+    "XkO_gKBftUc": {
+        "summary": "@GSK Hackathon Hack Days 2018, Introduction of Microsoft Azure Cloud Computing Platform & Services by @jantielens from @Microsoftbe @microsoftfrance #hackdayz #GSK #microsoftbelgium #microsoftfrance #azurecloud #azure",
+        "rating": 4.987288,
         "speakers": [
-            "Speaker"
+            "Jan Tielens"
         ],
-        "title": "HeraSpace-Media_for_Ultrahack-Sprint-II",
-        "viewCount": 2
+        "title": "Microsoft Azure Cloud by @jantielens from @Microsoftbe @GSK Hackathon Hack Days 2018",
+        "viewCount": 5
     },
-    "GTu8eRSzwvQ": {
-        "summary": "...your task is to create an artificial intelligence...",
-        "rating": 4.9365077,
+    "JKyfMZIt7uY": {
+        "summary": "GSK Ludivine Bellot Head of BMS Site Master Plan & Real Estate explains the challenges of the @GSK Hackathon Hack Days. #hackdayz #GSK #challenges #smartoffices #officeofthefuture",
+        "rating": 4.968053,
         "speakers": [
-            "Vesa Lindqvist"
+            "Ludivine Bellot"
         ],
-        "title": "ULTRAHACK-SPRINT-II_AI-in-Media",
-        "viewCount": 2
-    },
-    "6peB9mTerZA": {
-        "summary": "Hackers quick warm up - part 1",
-        "rating": 4,
-        "speakers": [
-            "Coach"
-        ],
-        "title": "Ultrahacker training 1",
-        "viewCount": 1
-    },
-    "mWFiE3E6m60": {
-        "summary": "Hackers quick warm up - part 2",
-        "rating": 4,
-        "speakers": [
-            "Coach"
-        ],
-        "title": "Ultrahacker training 2",
-        "viewCount": 1
+        "title": "GSK Ludivine Bellot Head of BMS Site Master Plan & Real Estate @GSK Hackathon Hack Days 2018",
+        "viewCount": 4
     }
 }
